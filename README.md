@@ -4,11 +4,11 @@ TODO: Write a project description
 
 ## Installation
 
-TODO: Copy the files to the external storage device.
+Copy the files to the external storage device.
 
 ## Usage
 
-TODO: Run the included update script.
+Run the included update script.
 
 ## Contributing
 
