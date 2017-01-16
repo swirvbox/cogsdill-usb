@@ -1,0 +1,8 @@
+
+/* IE 7 */
+/* ----------------------------------------- */
+
+/*  This is totaly wrong.  IE7 is bad and it should feel bad  */
+		.product-section ul {
+			display: inline-block;
+		}

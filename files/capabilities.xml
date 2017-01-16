@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<playlist version="1" xmlns="http://xspf.org/ns/0/">
+	<trackList>
+
+		<track>
+			<title></title>
+			<creator></creator>
+			<location>files/media/2009/12/cap_aero_skins.gif</location>
+			<info></info>
+		</track>
+
+		<track>
+			<title></title>
+			<creator></creator>
+			<location>files/media/2009/12/cap_aerospace_lgear.gif</location>
+			<info></info>
+		</track>
+
+		<track>
+			<title></title>
+			<creator></creator>
+			<location>files/media/2009/12/cap_aerospace_other.gif</location>
+			<info></info>
+		</track>
+		
+		<track>
+			<title></title>
+			<creator></creator>
+			<location>files/media/2009/12/cap_auto_heads.gif</location>
+			<info></info>
+		</track>
+
+		<track>
+			<title></title>
+			<creator></creator>
+			<location>files/media/2009/12/cap_auto_brakes.gif</location>
+			<info></info>
+		</track>
+		<track>
+			<title></title>
+			<creator></creator>
+			<location>files/media/2009/12/cap_auto_pistons.gif</location>
+			<info></info>
+		</track>
+
+		<track>
+			<title></title>
+			<creator></creator>
+			<location>files/media/2009/12/cap_auto_heads.gif</location>
+			<info></info>
+		</track>
+
+		<track>
+			<title></title>
+			<creator></creator>
+			<location>files/media/2009/12/cap_auto_pumps.gif</location>
+			<info></info>
+		</track>
+		
+		<track>
+			<title></title>
+			<creator></creator>
+			<location>files/media/2009/12/cap_oil_hardware.gif</location>
+			<info></info>
+		</track>
+
+		<track>
+			<title></title>
+			<creator></creator>
+			<location>files/media/2009/12/cap_oil_valves.gif</location>
+			<info></info>
+		</track>
+	</trackList>
+</playlist>
