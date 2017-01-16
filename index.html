@@ -11,34 +11,34 @@
 			function theRotator() {
 				//Set the opacity of all images to 0
 				$('div#rotator ul li').css({opacity: 0.0});
-				
+
 				//Get the first image and display it (gets set to full opacity)
 				$('div#rotator ul li:first').css({opacity: 1.0});
-					
+
 				//Call the rotator function to run the slideshow, 6000 = change to next image after 6 seconds
 				setInterval('rotate()',6000);
-				
+
 			}
-			
-			function rotate() {	
+
+			function rotate() {
 				//Get the first image
 				var current = ($('div#rotator ul li.show')?  $('div#rotator ul li.show') : $('div#rotator ul li:first'));
-			
+
 				//Get next image, when it reaches the end, rotate it back to the first image
-				var next = ((current.next().length) ? ((current.next().hasClass('show')) ? $('div#rotator ul li:first') :current.next()) : $('div#rotator ul li:first'));	
-				
+				var next = ((current.next().length) ? ((current.next().hasClass('show')) ? $('div#rotator ul li:first') :current.next()) : $('div#rotator ul li:first'));
+
 				//Set the fade in effect for the next image, the show class has higher z-index
 				next.css({opacity: 0.0})
 				.addClass('show')
 				.animate({opacity: 1.0}, 1000);
-			
+
 				//Hide the current image
 				current.animate({opacity: 0.0}, 1000)
 				.removeClass('show');
-				
+
 			};
-			
-			$(document).ready(function() {		
+
+			$(document).ready(function() {
 				//Load the slideshow
 				theRotator();
 			});
@@ -47,14 +47,14 @@
 
 <body class="home page page-id-8 page-template page-template-default">
 <div id="pagewrap" class="shadow">
-		
+
 	<div id="header">
 		<div class="breadcrumb">
 			<!-- Breadcrumb NavXT 3.4.1 -->
 		</div>
 		<div id="topnav">
 			 <div id="nav" class="clearfix">
-			 <ul class="">	
+			 <ul class="">
 				<li><a href="index.html" rel="bookmark" title=" &quot;Home&quot;">Home</a></li>
 				<li><a href="about.html" rel="bookmark" title=" &quot;About Us&quot;">About Us</a></li>
 				<li><a href="contact-us.html" rel="bookmark" title=" &quot;Contact Us&quot;">Contact Us</a></li>
@@ -67,11 +67,11 @@
 				<li><a href="product-videos.html" rel="bookmark" title="&quot;Product Videos&quot;">Product Videos</a></li>
 			</ul>
 			</div> <!-- close nav -->
-			
+
 		</div> <!--close topnav -->
 	</div><!-- close header -->
-	
-		
+
+
 			<div class="content">
 				<img class="logo" src="files/cogsdill_tool_products_inc.jpg" alt="Cogsdill Tool Products">
 				<div class="col_left">
@@ -81,10 +81,10 @@
 						Metalworking Industry<br>
 						<span class="highlight1">Since 1914</span></p>
 				</div> <!-- close col_left -->
-	
+
 				<div class="center">
-					Cogsdill Tool Products, Inc. and its U.K.-based subsidiary, 
-					Cogsdill-Nuneaton, Ltd., design and manufacture specialty tooling for 
+					Cogsdill Tool Products, Inc. and its U.K.-based subsidiary,
+					Cogsdill-Nuneaton, Ltd., design and manufacture specialty tooling for
 					the metal machining industries:
 					<ul>
 						<li>Roller burnishing tools and machines (and diamond burnishing tools), for sizing, finishing, and work-hardening in seconds</li>
@@ -93,14 +93,14 @@
 						<li>Automatic recessing tools and generating heads, for fast, accurate, and repeatable grooving, recessing, facing, and chamfering operations</li>
 						<li>ZX Systems, for boring, facing, and contouring operations in one set-up</li>
 					</ul>
-					Perform difficult machining tasks, and eliminate multiple set-ups and 
+					Perform difficult machining tasks, and eliminate multiple set-ups and
 					secondary operations. Produce better quality parts, with faster and more
-					 economical production. Standard, off-the-shelf tooling; custom tool 
-					design; applications engineering assistance; and worldwide service and 
+					 economical production. Standard, off-the-shelf tooling; custom tool
+					design; applications engineering assistance; and worldwide service and
 					support.
 				</div>
-	
-				
+
+
 			</div>
 <div class="col_right2">
 						<div id="rotator">
@@ -111,18 +111,18 @@
 									<li><img src="files/media/ds_shefcut.png"  alt="pic4" /></li>
 									<li><img src="files/media/ds_zx.png"  alt="pic5" /></li>
 								  </ul>
-								
+
 						</div>
-					
+
 				</div>
-				
+
 	<div id="footer">
-		
+
 		<p></p>
-		
-		
+
+
 	</div>
 </div> <!-- close pagewrap  -->
 	</body>
-
+<!-- ver 16.6 -->
 </html>
